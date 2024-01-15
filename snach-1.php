@@ -2,12 +2,21 @@
 
 $partite = [
     [
-        "squadra" => ["Milano", 99, "Como", 88],
+        'squadra1' => 'Milano',
+        'punti' => 99,
     ],
     [
-        "squadra1" => ["Milano", 99, "Como", 88],
+        'squadra2' => 'Como',
+        'punti' => 80,
     ],
-
+    [
+        'squadra3' => 'Meda',
+        'punti' => 30,
+    ],
+    [
+        'squadra4' => 'Cesano',
+        'punti' => 60,
+    ],
 ];
 
 
