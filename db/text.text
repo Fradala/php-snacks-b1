@@ -1,0 +1,3 @@
+SELECT `surname` 
+FROM `students`
+WHERE `surname` LIKE '%o';
