@@ -16,6 +16,12 @@ class Pokemon {
         $this->attacco = $attacco;
 
     }
+    public function attacca($avversario) {
+        $damage = $this->attacco * 2;
+        $avversario->subisciDanno($damage);
+        echo "{$this->nome} attacca {$avversario->getNome()} e infligge {$damage} danni!\n";
+    }
+
 
     public function subisciDanno($damage) {
         $this->saluteMassima -= $damage;
