@@ -27,7 +27,7 @@ try {
     echo "Età: " . $persona->getAge();
 
     
-    $persona->setAge(55);
+    $persona->setAge('dd');
     
 } catch (InvalidArgumentException $e) {
     echo "Errore: " . $e->getMessage();
